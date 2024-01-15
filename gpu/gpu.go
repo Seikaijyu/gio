@@ -18,6 +18,8 @@ import (
 	"time"
 	"unsafe"
 
+	"gioui.org/shader"
+	"gioui.org/shader/gio"
 	"github.com/Seikaijyu/gio/gpu/internal/driver"
 	"github.com/Seikaijyu/gio/internal/byteslice"
 	"github.com/Seikaijyu/gio/internal/f32"
@@ -27,8 +29,6 @@ import (
 	"github.com/Seikaijyu/gio/internal/stroke"
 	"github.com/Seikaijyu/gio/layout"
 	"github.com/Seikaijyu/gio/op"
-	"github.com/Seikaijyu/gio/shader"
-	"github.com/Seikaijyu/gio/shader/gio"
 
 	// Register backends.
 	_ "github.com/Seikaijyu/gio/gpu/internal/d3d11"

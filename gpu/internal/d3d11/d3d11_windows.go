@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/sys/windows"
 
+	"gioui.org/shader"
 	"github.com/Seikaijyu/gio/gpu/internal/driver"
 	"github.com/Seikaijyu/gio/internal/d3d11"
-	"github.com/Seikaijyu/gio/shader"
 )
 
 type Backend struct {

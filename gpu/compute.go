@@ -20,7 +20,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Seikaijyu/gio/cpu"
+	"gioui.org/cpu"
+	"gioui.org/shader"
+	"gioui.org/shader/gio"
+	"gioui.org/shader/piet"
 	"github.com/Seikaijyu/gio/gpu/internal/driver"
 	"github.com/Seikaijyu/gio/internal/byteslice"
 	"github.com/Seikaijyu/gio/internal/f32"
@@ -29,9 +32,6 @@ import (
 	"github.com/Seikaijyu/gio/internal/scene"
 	"github.com/Seikaijyu/gio/layout"
 	"github.com/Seikaijyu/gio/op"
-	"github.com/Seikaijyu/gio/shader"
-	"github.com/Seikaijyu/gio/shader/gio"
-	"github.com/Seikaijyu/gio/shader/piet"
 )
 
 type compute struct {

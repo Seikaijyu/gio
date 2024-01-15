@@ -18,7 +18,7 @@ type Op uint32
 
 type Command [sceneElemSize / 4]uint32
 
-// GPU commands from piet/scene.h in package github.com/Seikaijyu/gio/shaders.
+// GPU commands from piet/scene.h in package gioui.org/shaders.
 const (
 	OpNop Op = iota
 	OpLine

@@ -5,7 +5,7 @@ package gpu
 import (
 	"unsafe"
 
-	"github.com/Seikaijyu/gio/cpu"
+	"gioui.org/cpu"
 )
 
 // This file contains code specific to running compute shaders on the CPU.

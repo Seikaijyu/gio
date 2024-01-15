@@ -7,8 +7,8 @@ import (
 	"image"
 	"time"
 
+	"gioui.org/shader"
 	"github.com/Seikaijyu/gio/internal/f32color"
-	"github.com/Seikaijyu/gio/shader"
 )
 
 // Device represents the abstraction of underlying GPU
