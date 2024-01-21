@@ -75,11 +75,6 @@ func (s SwitchStyle) Layout(gtx layout.Context) layout.Dimensions {
 	}
 	t = op.Offset(inkOff).Push(gtx.Ops)
 	gtx.Constraints.Min = image.Pt(inkSize, inkSize)
-	cl = clip.UniformRRect(image.Rectangle{Max: gtx.Constraints.Min}, rr).Push(gtx.Ops)
-	for _, p := range s.Switch.History() {
-		drawInk(gtx, p)
-	}
-	cl.Pop()
 	t.Pop()
 
 	// Compute thumb offset.
